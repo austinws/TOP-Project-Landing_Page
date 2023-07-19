@@ -6,11 +6,18 @@ h1 {
     font-weight: 900;
     color: white;
     padding: 20px 20px;
+    font-size: 30px;
+    text-align: center;
 }
 
 h2 {
     font-weight: 900;
     color: white;
+    padding: 20px 20px;
+}
+
+h3 {
+    font-weight: 900;
     padding: 20px 20px;
 }
 
@@ -67,4 +74,34 @@ img{
     height: auto;
     margin: 10px 10px;
     border-radius: 20px;
+}
+
+.marble {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.lingo {
+    display: flex;
+    flex-direction: row;
+    background-color: navy;
+    justify-content: space-around;
+}
+
+img.lingoimg {
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px;
+    margin: 10px 10px;
+}
+.onyx {
+    background-color: darkred;
+    color: rgb(253, 253, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
