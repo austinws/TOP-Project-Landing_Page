@@ -2,9 +2,27 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-weight: 900;
+    color: white;
+    padding: 20px 20px;
+}
+
 h2 {
     font-weight: 900;
     color: white;
+    padding: 20px 20px;
+}
+
+p {
+    font-weight: 700;
+    color: white;
+    padding: 20px 20px;
+
+}
+
+a {
+    text-align: center;
     padding: 20px 20px;
 }
 
@@ -25,4 +43,28 @@ ul {
 li {
     display: flex;
     padding: 10px 10px;
+}
+
+.granite {
+    display: flex;
+    background-color: navy;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro {
+    display: flex;
+    background-color: silver;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img{
+    width: 800px;
+    height: auto;
+    margin: 10px 10px;
+    border-radius: 20px;
 }
